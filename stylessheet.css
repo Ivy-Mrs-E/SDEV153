@@ -9,7 +9,7 @@ ul, ol {
   font-weight: bold;
 }
 @media (max_width:500px){
-    body{ background_color : light blue;}
+    body{ background-color : light blue;}
 }
 @media (orientation: portrait({
     color: cyan;
