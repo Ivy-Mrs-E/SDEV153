@@ -8,6 +8,6 @@ ul, ol {
   color: white;
   font-weight: bold;
 }
-@media screen (max_width : 500px){
+@media (max_width:500px){
     body{ background_color : light blue;}
 }
