@@ -1,4 +1,4 @@
-body { background-color: green}
+body { background-color: cream}
 h1 { color: red }
 p { background-color: blue; 
     color: yellow;
@@ -23,4 +23,16 @@ ul, ol {
 .nav-links {
   display: flex;
   list-style: none; /* Removes the bullet points */
+}
+/* Style individual list items for spacing */
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Style the actual clickable links */
+.nav-links a {
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
