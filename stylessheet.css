@@ -20,3 +20,7 @@ ul, ol {
   padding: 15px 30px;
   font-family: Arial, sans-serif;
 }
+.nav-links {
+  display: flex;
+  list-style: none; /* Removes the bullet points */
+}
