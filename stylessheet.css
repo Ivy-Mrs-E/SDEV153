@@ -28,7 +28,7 @@ ul, ol {
 }
 .nav-links {
   display: flex;
- /* list-style: none;  Removes the bullet points */
+  list-style: none; /* Removes the bullet points */
 }
 /* Style individual list items for spacing */
 .nav-links li {
