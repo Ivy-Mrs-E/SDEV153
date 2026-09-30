@@ -18,9 +18,12 @@
     <h1 style = "color:green">Another  Heading 1 with Inline Style applied </h1>
 
 <script> 
-    let age = Number(prompt("Please enter your age "));
+    let age;
+    age = Number(prompt("Please enter your age "));
     let ageIn10 = (age + 10);
     document.writeln("You will be " + ageIn10 + " in 10 years ");
+    if (age >= 50)
+       document.writeln("You can retire from work");
   </script>
 
 
